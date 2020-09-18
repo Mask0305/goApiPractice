@@ -1,13 +1,14 @@
 package routers
 
-import(
+import (
 	userControllers "goApiPractice/controllers"
+
 	"github.com/gin-gonic/gin"
 )
 
 // UserRouter return router
 func UserRouter() *gin.Engine {
 	router := gin.Default()
-	router.POST("/AddUser", userControllers.Register)
+	router.POST("/Register", userControllers.Register)
 	return router
 }
