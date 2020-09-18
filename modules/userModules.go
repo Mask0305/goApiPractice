@@ -21,7 +21,7 @@ type ID struct {
 	ID primitive.ObjectID `bson:"_id"`
 }
 
-// Register -
+// Register - user register
 func (user *User) Register() (id *mongo.InsertOneResult, err error) {
 	// DB connect
 	db := con.ConnectDB()
