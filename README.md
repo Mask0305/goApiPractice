@@ -1,6 +1,8 @@
-# goApiPractice
 ###### tags: `Golang`
-# Gin 框架
+
+# goApiPractice
+2020/09/18
+第一個golang MVC 練習
 
 # 模組化
 模組化指令
